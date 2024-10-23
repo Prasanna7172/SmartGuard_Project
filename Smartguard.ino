@@ -88,7 +88,7 @@ void loop() {
     delay(1000);
     digitalWrite(relayPin, LOW);
   //    delay(2000);
-    Serial.print("Heart Beat is: ");
+    Serial.print("Pulse Rate is: ");
     Serial.println(myBPM);
     if((myBPM<110) && myBPM !=0){
       Serial.println("DRIVING SLOWLY");
